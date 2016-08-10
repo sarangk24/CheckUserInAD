@@ -14,9 +14,9 @@ namespace CheckUserInAD
         {
             
 
-            var adUserName = "s-lighthouse-softwar";//ConfigurationManager.AppSettings["ADUserName"];
-            var adPassword = "1Welcome";//ConfigurationManager.AppSettings["ADPassword"];
-            var adServerName = "mpdomvp1.domain.internal";// ConfigurationManager.AppSettings["ADServerName"];
+            var adUserName = ConfigurationManager.AppSettings["ADUserName"];
+            var adPassword = ConfigurationManager.AppSettings["ADPassword"];
+            var adServerName =  ConfigurationManager.AppSettings["ADServerName"];
             var userToSearch=string.Empty;
             while (true)
             {
