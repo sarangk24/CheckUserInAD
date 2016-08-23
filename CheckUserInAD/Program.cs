@@ -20,6 +20,7 @@ namespace CheckUserInAD
             var userToSearch=string.Empty;
             while (true)
             {
+				Console.WriteLine("Wow Git");
                 Console.WriteLine("Press \n 1.User Check By UserName \n 2.Group Check \n 3.User Check By SurName \n 4. User's Manager");
                 int result = 1;
 
