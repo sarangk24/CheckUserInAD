@@ -12,11 +12,11 @@ namespace CheckUserInAD
     {
         static void Main(string[] args)
         {
-            
+
 
             var adUserName = ConfigurationManager.AppSettings["ADUserName"];
             var adPassword = ConfigurationManager.AppSettings["ADPassword"];
-            var adServerName =  ConfigurationManager.AppSettings["ADServerName"];
+            var adServerName = ConfigurationManager.AppSettings["ADServerName"];
             var userToSearch=string.Empty;
             while (true)
             {
